@@ -1,0 +1,307 @@
+@font-face {
+    font-family: "yekan";
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/yekan/yekan-regular.eot') format("embedded-opentype"),
+	url('fonts/yekan/yekan-regular.woff') format("woff"),
+	url('fonts/yekan/yekan-regular.ttf') format("truetype");
+}
+
+.carousel-caption {
+    left: 0 !important;
+    right: 0 !important;
+    padding-bottom: 0;
+    background-color: #000;
+    padding: 3px;
+    bottom: 5px;
+    opacity: 0.7;
+    font-family: tahoma;
+}
+.carousel-indicators li{
+  border-radius: 0 !important;
+}
+.carousel-indicators {
+    top: 11px !important;
+	right: 45% !important;
+}
+
+
+body{
+	font-family: 'yekan' !important;
+	background-color:#efefef;
+}
+#nav-fix-clear{
+	height:20px;
+}
+#ads-pic{margin:8px 0;
+ float:left;
+}
+.box{
+	background-color: #fff;
+	border: #cfcfcf 1px solid;
+	margin-bottom:15px;
+}
+h3{
+	margin: 8px !important;
+    padding: 0;
+}
+hr{
+	margin: 3px 0 !important;
+}
+.wiget-box{
+	padding: 7px;
+}
+.img-index-slide {
+	width: 100%;
+    height:auto;
+}
+.carousel-caption2{
+	background-color: #000;
+	opacity: 0.8;
+	color: #fff;
+	text-align: center;
+}
+#b-p{
+	border: 1px solid #D4C9C9;
+	border-top: 0;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+	list-style: none;
+	padding-right: 0 !important;
+}
+.im-box{width: 50px;height: 50px;
+float: right;margin-left: 5px;
+}
+#b-p li{
+	display: inline-block;
+	border-bottom: 1px solid #eee;
+	width: 100%;padding: 3px;
+    transition: 500ms;
+	background-color:#fff;
+}
+#b-p li:hover{
+	background-color: #ffe7e7 !important;
+}
+#b-p li:nth-of-type(2n+1) {
+	background-color: #f9f9f9;
+}
+footer{
+	background-color: rgb(255, 255, 255);
+	margin: 20px 0px;
+	padding: 8px;
+	border: 1px solid rgb(207, 207, 207);
+}
+#copyright{
+	float: left;
+    direction: ltr;
+}
+.alert {
+	padding: 8px !important;
+    margin-bottom: 10px !important;
+	margin-top: 10px;
+}
+.alert-dismissable .close, .alert-dismissible .close {
+	right: -6px !important;
+}
+.content-title{
+	margin-right:5px;
+}
+.content-img{
+	width: 100%;
+    height: auto;
+	border: 1px solid #eee;padding: 2px;
+}
+.con-text{text-align: justify;
+    height: 138px;
+    overflow: hidden;
+    font-size: 10pt;
+    border-bottom: 1px solid #eee;
+}
+h3, .h3 {
+	font-size: 18px !important;
+}
+
+#random-post{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#random-post li a{
+    color: #444;
+    text-decoration: none;
+}
+
+#random-post li{
+    padding: 9px 3px;
+    border-bottom: 1px solid #ccc;
+    background-color: #FFF;
+}
+
+#random-post li:hover{
+    background-color: #ececec;
+}
+#carousel-example-generic{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    #logo{
+    display: block;
+    margin: auto;
+}
+}
+
+.shoplist {
+    border: #ccc 2px;
+    border-radius:15px;
+    padding:5px;
+    background : #f4f4f4;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.1s;
+}
+.shoplist:hover{
+    transition: 0.1s;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+    margin:5%;
+}
+.grd{
+    border: #ccc 2px;
+    border-radius:15px;
+    padding:5px;
+    background : #f4f4f4;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* For non-retina based devices that have a smaller screen */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Retina enabled devices with smaller screen */
+@media  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), 
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 320px),  
+only screen and ( min-device-pixel-ratio: 2) and (min-width: 320px),  
+only screen and ( min-resolution: 192dpi) and (min-width: 320px),  
+only screen and ( min-resolution: 2dppx) and (min-width: 320px) {
+
+}
+
+/*Non- retina based devices with medium screen size */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Retina devices with medium screen size */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),  
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 768px),  
+only screen and ( min-device-pixel-ratio: 2) and (min-width: 768px),  
+only screen and ( min-resolution: 192dpi) and (min-width: 768px),  
+only screen and ( min-resolution: 2dppx) and (min-width: 768px) {
+
+}
+
+/* Non-retina devices with large screen sizes */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Retina devices with large screen sizes */
+@media  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),  
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 1200px),  
+only screen and ( min-device-pixel-ratio: 2) and (min-width: 1200px),  
+only screen and ( min-resolution: 192dpi) and (min-width: 1200px),  
+only screen and ( min-resolution: 2dppx) and (min-width: 1200px) {
+
+}
+
+/* CSS Document */
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+@font-face{
+	font-family: "B Mitra";
+	src: url(../fonts/B Mitra_p30download.com.ttf);
+}
+
+#bod{
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "B Mitra";
+}
+
+#wrapper{
+	position: relative;
+	margin: auto;
+	width: 80%;
+}
+
+bnav{
+	
+}
+
+.nav1{
+	margin-top: 1vw;
+	height: 3.5vw;
+	list-style-type: none;
+	overflow: hidden;
+	border-bottom: 0.01vw solid white;
+	font-family: "B Mitra";
+}
+
+.nav1 li{
+	float: right;
+}
+
+.nav1 li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.7vw 1vw;
+	text-decoration: none;
+	font-size: 1.3vw;
+}
+
+.nav1 li a:hover{
+	border-bottom: 1.5vw solid white;
+}
+
+.cont{
+	width: 50%;
+	height: 40vw;
+	float: right;
+	font: "B Mitra";
+	text-align: center;
+	font-size: 1.5vw;
+	padding: 2vw;
+	padding-top: 13vw;
+	color: white;
+}
+
+
+.bubbleChart1{
+    width: 50%;
+    height: 40vw;
+	float: left;
+	margin-top: 2vw;
+}
+.bubbleChart svg{
+}
+
+#backvideo{
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+}  
+
+.grd2{
+    border: #b2b4b7 2px;
+    border-radius:15px;
+    padding:5px;
+    background : #f4f4f4;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
