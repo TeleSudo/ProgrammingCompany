@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "yekan";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/yekan/yekan-regular.eot') format("embedded-opentype"),
+	url('../fonts/yekan/yekan-regular.woff') format("woff"),
+	url('../fonts/yekan/yekan-regular.ttf') format("truetype");
+}
+body{
+font-family:"yekan",tahoma !important;
+background-color: rgba(251, 251, 251, 1);}
+.ads{
+margin-top: 22px;
+padding: 3px;
+border: 1px dashed #cfcfcf;}
+.box{
+background-color: #fff;
+padding: 7px;
+border-radius: 4px;
+border: 1px solid #eee;
+margin-bottom:20px;}
+.hr{
+margin: 3px 0px 3px 0px;
+border-bottom: #CFCFCF 1px solid;}
+ul{
+list-style:none;
+padding-right:0 !important;}
+.wiget-meno-list li{
+padding: 5px;
+  margin: 2px;
+  background-color: rgba(249, 249, 249, 1);
+  trasition:500ms;
+}
+.wiget-meno-list li:hover{
+  background-color: rgba(243, 241, 241, 1)
+}
+.img-res{
+width:100%;
+height:auto;}
+.text-small p{
+  margin: 5px 0;
+  text-align: justify;
+
+}
